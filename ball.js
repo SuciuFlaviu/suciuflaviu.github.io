@@ -1,5 +1,5 @@
 
-document.getElementById("id_business_level").innerHTML = "Bussiness version = 2018.03.23.2";
+document.getElementById("id_bussiness_level").innerHTML = "Bussiness version = 2018.03.23.2";
 
 var stare = {y:0, directie: 1};
 
