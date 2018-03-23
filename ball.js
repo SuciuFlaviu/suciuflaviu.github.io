@@ -1,8 +1,10 @@
 
-document.getElementById("id_business_level").innerHTML = "Business version = 2018.03.23.0";
+document.getElementById("id_business_level").innerHTML = "Business version = 2018.03.23.1";
 
 
-setInterval(deseneaza,30);
+
+setInterval(deseneaza, 30, 0, 1);
+
 
 
 
