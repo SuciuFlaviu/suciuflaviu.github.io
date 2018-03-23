@@ -10,7 +10,7 @@ setInterval(deseneaza, 30, stare);
 
 function deseneaza(x)
 {
-	vat t = document.getElementById("id_transform");
+	var t = document.getElementById("id_transform");
 	t.setAttribute("translation","0 " + x.y + " 0");
 	x.y += x.directie;
 	if (x.y>10)
